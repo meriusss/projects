@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-body{
-    height: 100vh;
-}
-
 .navbar{
     display: grid;
     grid-template-columns: 10% 20% 40% 20% 10%;
@@ -44,11 +40,24 @@ body{
     margin: 0px 0;
 }
 
-.main p{
+.wrapper{
+    display: flex;
     margin: 50px 0;
     border: 6px solid black;
+    border-radius: 10px;
     padding: 3%;
     font-size: 30px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 footer{
